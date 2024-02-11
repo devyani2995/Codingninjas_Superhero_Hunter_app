@@ -5,6 +5,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Set body styling */
 body {
     margin: 0;
     background-color: #0C1027;
@@ -12,6 +13,7 @@ body {
 
 /*------header section--------*/
 
+/* Fixed header at the top */
 .main-header {
     height: 10vh;
     padding: 1.5rem;
@@ -26,6 +28,7 @@ body {
     box-shadow: 0 4px 1px 0 #1c1e2d, 0 4px 20px 0 #574576
 }
 
+/* Styling for the logo and navigation bar */
 .logo-container {
     display: flex;
     justify-content: flex-start;
@@ -33,23 +36,27 @@ body {
     width: 18%;
 }
 
+/* set the style for logo image */
 .logo-container img {
     width: 9rem;
     height: 3rem;
     margin-right: 1rem;
 }
 
+/* set the style for header link */
 .logo-container a {
     text-decoration: none;
     margin-right: 1rem;
 }
 
+/* Header title styling */
 .header-title {
     color: #CECFD3;
     font-size: 1rem;
     font-weight: 600;
 }
 
+/* Styling for the searchbox container */
 .searchbox-container {
     display: flex;
     justify-content: flex-end;
@@ -57,6 +64,7 @@ body {
     width: 55%;
 }
 
+/* Styling for the search box */
 .search-box {
     padding: 0.5rem;
     background-color: #12183F;
@@ -67,6 +75,7 @@ body {
     width: 70%;
 }
 
+/* setting the styles for the search input field */
 .search-box input {
     font-size: 1.1rem;
     padding: 0.6rem;
@@ -79,13 +88,9 @@ body {
     color: white;
 }
 
-.search-box input:focus {
-    outline: none;
-}
-
+/* setting the color property of an icon */
 .search-box i {
     color: #93A8B3;
-    /*     font-size: 2rem; */
 }
 
 /*---- main conatiner section ----*/
@@ -94,6 +99,7 @@ main {
     margin-top: 12vh;
 }
 
+/* Styling for the loading spinner */
 #loading {
     position: absolute;
     left: 50%;
@@ -109,6 +115,7 @@ main {
     animation: spin 2s linear infinite;
 }
 
+/* adding animation on loading spinner */
 @-webkit-keyframes spin {
     0% {
         -webkit-transform: rotate(0deg);
@@ -130,8 +137,6 @@ main {
 }
 
 /*-------- superhero-container --------*/
-
-
 #superhero-container {
     box-sizing: border-box;
     flex-wrap: wrap;
@@ -140,7 +145,7 @@ main {
     display: none;
 }
 
-/* Add animation to superhero-container */
+/* Adding animation to superhero-container */
 .animate-bottom {
     position: relative;
     -webkit-animation-name: animatebottom;
@@ -173,6 +178,7 @@ main {
     }
 }
 
+/* Styling for superhero list */
 #superhero-list {
     margin: 1rem;
     border: 1px solid dodgerblue;
@@ -180,7 +186,7 @@ main {
     transition: transform .2s;
 }
 
-/* superhero image */
+/* stting the styles for superhero image */
 .superhero-img {
     height: 13rem;
     width: 13rem;
@@ -188,6 +194,7 @@ main {
     box-shadow: 0 4px 8px 0 #3F51B5, 0 6px 20px 0 #673AB7;
 }
 
+/* setting style for hover effect on superhero list */
 #superhero-list:hover {
     -ms-transform: scale(1.1);
     /* IE 9 */
@@ -203,11 +210,13 @@ main {
     margin: 1vh;
 }
 
+/* Styling for buttons container */
 #buttons-container {
     display: flex;
     justify-content: space-between;
 }
 
+/* common styling for 'Add to favourites' and 'About' button */
 .buttons {
     background-color: transparent;
     color: grey;
@@ -216,6 +225,7 @@ main {
     padding: 7px;
 }
 
+/* Styling for 'About' button */
 #about {
     background-color: black !important;
     opacity: 0.45;

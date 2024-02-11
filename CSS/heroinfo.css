@@ -1,9 +1,11 @@
+/* Set the style for header text */
 h2 {
     color: #CECFD3;
     text-align: center;
     margin-top: 14vh;
 }
 
+/* Card Container Styling */
 #card-container {
     box-sizing: border-box;
     display: none;
@@ -12,6 +14,7 @@ h2 {
     align-items: center;
 }
 
+/* Styling for Hero Info Container */
 #hero-info {
     margin: 1rem;
     border: 1px solid dodgerblue;
@@ -20,6 +23,7 @@ h2 {
     width: 49%;
 }
 
+/* Styling for Hero Image */
 .hero-img {
     height: 25rem;
     width: -webkit-fill-available;
@@ -30,23 +34,26 @@ h2 {
     margin-right: auto;
 }
 
+/* Styling for the Table */
 table {
     width: 100%;
     margin-top: 4vh;
     color: white;
 }
-
+/* Styling for Table Text */
 .table-text {
     font-size: large;
     font-family: cursive;
 }
 
+/* Styling for Comics Detail Section */
 #comics-detail {
     margin-top: 3vh;
     margin-bottom: 2vh;
     text-align: center;
 }
 
+/* Styling for Comics Detail link */
 #comics-detail a {
     text-decoration: none;
     background: #09499e;
