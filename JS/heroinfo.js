@@ -6,6 +6,12 @@ let card_conatiner = document.getElementById("card-container");
 let id = localStorage.getItem("id");
 let infodata = [];
 
+// remove the item with the key "id" from localStorage when the favourites link is clicked
+let favID = document.getElementById('fav-link');
+favID.addEventListener('click', function () {
+  localStorage.removeItem("id");
+});
+
 // Function to fetch detailed information about a superhero from the Marvel API
 async function fetchHeroInfo() {
   let url = `https://gateway.marvel.com/v1/public/characters/${id}?ts=1&apikey=951bb64a7b4c0f434e8ce47e51e0fa36&hash=5aff9aa11365f4ed841c6b667f5201a1`;
