@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- set character set encoding -->
+    <meta charset="UTF-8" />
+    <!-- set viewport meta property -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- title of the website -->
+    <title>Superhero Hunter</title>
+    <!-- linking to the css file -->
+    <link rel="stylesheet" href="./CSS/style.css" type="text/css" />
+    <!--link to use font-awesome icons -->
+    <script
+      src="https://kit.fontawesome.com/80a456e58e.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- header section -->
+    <header class="main-header">
+      <!-- logo and navigation bar -->
+      <div class="logo-container">
+        <img src="images/logo.jpg" />
+        <!-- link to the home page -->
+        <a href="#"><p class="header-title">Home</p></a>
+        <!-- link to the favourites page -->
+        <a href="/favourites.html"><p class="header-title">Favourites</p></a>
+      </div>
+      <!--  Searchbox Section -->
+      <div class="searchbox-container">
+        <div class="search-box">
+          <i class="fas fa-search"></i>
+          <input
+            type="search"
+            id="search-string"
+            placeholder="Search Superhero Name...."
+          />
+        </div>
+      </div>
+    </header>
+
+    <!-- main conatiner section -->
+    <main>
+      <!-- to show loading spinner -->
+      <div id="loading"></div>
+      <!-- to display the list of superheroes -->
+      <div id="superhero-container" class="animate-bottom"></div>
+      <!-- to show a toast message at the bottom of the page -->
+      <div id="snackbar">Added to favourite...</div>
+    </main>
+    <!-- linking to the external JS file -->
+    <script src="./JS/script.js"></script>
+  </body>
+</html>

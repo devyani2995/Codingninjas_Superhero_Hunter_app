@@ -1,0 +1,56 @@
+h2 {
+    color: #CECFD3;
+    text-align: center;
+    margin-top: 14vh;
+}
+
+#card-container {
+    box-sizing: border-box;
+    display: none;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero-info {
+    margin: 1rem;
+    border: 1px solid dodgerblue;
+    padding: 1rem;
+    transition: transform .2s;
+    width: 49%;
+}
+
+.hero-img {
+    height: 25rem;
+    width: -webkit-fill-available;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px 0 #3F51B5, 0 6px 20px 0 #673AB7;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table {
+    width: 100%;
+    margin-top: 4vh;
+    color: white;
+}
+
+.table-text {
+    font-size: large;
+    font-family: cursive;
+}
+
+#comics-detail {
+    margin-top: 3vh;
+    margin-bottom: 2vh;
+    text-align: center;
+}
+
+#comics-detail a {
+    text-decoration: none;
+    background: #09499e;
+    color: #CECFD3;
+    padding: 12px;
+    border-radius: 9px;
+}

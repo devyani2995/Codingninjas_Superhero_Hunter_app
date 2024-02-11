@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- set character set encoding -->
+    <meta charset="UTF-8" />
+    <!-- set viewport meta property -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- title of the website -->
+    <title>About Superhero</title>
+    <!-- linking to the css file -->
+    <link rel="stylesheet" href="./CSS/style.css" type="text/css" />
+    <link rel="stylesheet" href="./CSS/heroinfo.css" type="text/css" />
+  </head>
+  <body>
+    <!-- header section -->
+    <header class="main-header">
+      <!-- logo and navigation bar -->
+      <div class="logo-container">
+        <img src="images/logo.jpg" />
+        <!-- link to the home page -->
+        <a href="./index.html"><p class="header-title">Home</p></a>
+        <!-- link to the favourites page -->
+        <a href="./favourites.html"><p class="header-title">Favourites</p></a>
+      </div>
+    </header>
+    <!-- main conatiner section -->
+    <main>
+      <!-- to show loading spinner -->
+      <div id="loading"></div>
+      <h2>
+        <i><u>Informations About The Superheroes</u></i>
+      </h2>
+      <!-- to display the information about the superheroes -->
+      <div id="card-container" class="animate-bottom"></div>
+    </main>
+    <!-- linking to the external JS file -->
+    <script src="./JS/heroinfo.js"></script>
+  </body>
+</html>

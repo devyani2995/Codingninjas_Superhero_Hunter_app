@@ -1,0 +1,14 @@
+Your public key:-
+951bb64a7b4c0f434e8ce47e51e0fa36
+Your private key:-
+ea78959e5e6baf89bbdfb74fcb8271a02a671f32
+
+MD5 = ts + privatekey + publickey = 1ea78959e5e6baf89bbdfb74fcb8271a02a671f32951bb64a7b4c0f434e8ce47e51e0fa36
+hash = 5aff9aa11365f4ed841c6b667f5201a1
+url = http://gateway.marvel.com/v1/public/comics?ts=1&apikey=951bb64a7b4c0f434e8ce47e51e0fa36&hash=5aff9aa11365f4ed841c6b667f5201a1
+
+youtube link for guideline: -
+https://www.youtube.com/watch?v=zUEe_414mD4&list=PLaEFB-zhBL5of8Dks-GrZrx7y4gfK6yvX&index=5
+
+md5 generator link:-
+https://www.md5.cz/
