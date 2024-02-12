@@ -1,8 +1,5 @@
 //Fetching the id of div element of superhero-container
 let superHeroList = document.getElementById("superhero-container");
-console.log(localStorage);
-
-localStorage.clear();
 
 //Removing superhero from favourites list
 function removeFavSuperHero(id) {
