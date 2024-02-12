@@ -18,6 +18,7 @@ if (localStorage.length == 0) {
     }
     //Getting data from local storage in JSON format
     let favData = JSON.parse(localStorage.getItem(localStorage.key(i)));
+    console.log("fav items"+favData);
 
     //Updating HTML content for displaying list of favourites superhero 
     superHeroList.innerHTML = `
@@ -64,6 +65,7 @@ function aboutSuperhero(id) {
 
 //Removing superhero from favourites list
 function removeFavSuperHero(id) {
+  console.log(id);
   localStorage.removeItem(id);
   //Reload the current page
   window.location.reload();
