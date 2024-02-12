@@ -8,10 +8,11 @@ Superhero Hunter app is a web application where we can see the lists of all supe
 
 3. **Favourite page** - Display a list of all the favourite superheroes. Each superhero has a remove from favourites button, clicking on which it will remove that superhero from the favourite list.
 
-**Technology:-**
-1.HTML
-2.CSS
-3.Javascript
+## Technology:
+
+-HTML
+-CSS
+-Javascript
 
 **Hosted URL:**
 https://devyani2995.github.io/Superhero_Hunter_app/
