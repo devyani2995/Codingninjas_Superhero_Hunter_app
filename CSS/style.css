@@ -88,6 +88,10 @@ body {
     color: white;
 }
 
+.search-box input:focus {
+    outline: none;
+}
+
 /* setting the color property of an icon */
 .search-box i {
     color: #93A8B3;
