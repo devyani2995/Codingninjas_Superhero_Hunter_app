@@ -10,9 +10,9 @@ Superhero Hunter app is a web application where we can see the lists of all supe
 
 ## Technology:
 
--HTML
--CSS
--Javascript
+HTML,
+CSS,
+Javascript
 
 **Hosted URL:**
 https://devyani2995.github.io/Superhero_Hunter_app/
