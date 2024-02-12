@@ -1,6 +1,22 @@
 //Fetching the id of div element of superhero-container
 let superHeroList = document.getElementById("superhero-container");
-console.log(localStorage.length)
+console.log(localStorage);
+
+localStorage.clear();
+
+//Removing superhero from favourites list
+function removeFavSuperHero(id) {
+  localStorage.removeItem(id);
+  //Reload the current page
+  window.location.reload();
+}
+
+//Adding id in the local storage and navigating to about page
+function aboutSuperhero(id) {
+  localStorage.setItem("id", id);
+  window.location.assign('heroinfo.html');
+}
+
 //Checking if local storage is empty then message will show on screen 
 //Otherwise will display favourite superhero list
 if (localStorage.length == 0) {
@@ -56,15 +72,4 @@ superHeroList.addEventListener('click', function (e) {
   }
 });
 
-//Adding id in the local storage and navigating to about page
-function aboutSuperhero(id) {
-  localStorage.setItem("id", id);
-  window.location.assign('/heroinfo.html');
-}
 
-//Removing superhero from favourites list
-function removeFavSuperHero(id) {
-  localStorage.removeItem(id);
-  //Reload the current page
-  window.location.reload();
-}
