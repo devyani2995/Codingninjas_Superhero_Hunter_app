@@ -47,7 +47,7 @@ searchInput.addEventListener('keyup', async function (e) {
 //Adding id in the local storage and navigating to about page
 function aboutSuperhero(id) {
   localStorage.setItem("id", id);
-  window.location.assign('/heroinfo.html');
+  window.location.assign('./heroinfo.html');
 }
 
 //Add data in local storage and showing the toast message
