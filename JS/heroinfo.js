@@ -18,7 +18,7 @@ async function fetchHeroInfo() {
 
   //Fetching data from an API
   let response = await fetch(url);
-  // Convert the response to JSON format
+  // extracting json into a plain JavaScript object
   let resJson = await response.json();
   // Hide loader and display the card container
   loader.style.display = 'none';

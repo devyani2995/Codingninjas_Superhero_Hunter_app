@@ -7,7 +7,7 @@ let searchInput = document.getElementById('search-string');
 async function fetchSuperHero() {
   try {
     const response = await fetch('http://gateway.marvel.com/v1/public/characters?ts=1&apikey=951bb64a7b4c0f434e8ce47e51e0fa36&hash=5aff9aa11365f4ed841c6b667f5201a1');
-    // Convert the response to JSON format
+    // extracting json into a plain JavaScript object
     let res = await response.json();
     // Hide loader and display the superhero list
     loader.style.display = 'none';
@@ -38,7 +38,7 @@ searchInput.addEventListener('keyup', async function (e) {
 
   //Accesing data from an api
   let response = await fetch(url);
-  // Convert the response to JSON format
+  // extracting json into a plain JavaScript object
   let resJson = await response.json();
   // Call a function to handle displaying the fetched data
   showData(resJson);
